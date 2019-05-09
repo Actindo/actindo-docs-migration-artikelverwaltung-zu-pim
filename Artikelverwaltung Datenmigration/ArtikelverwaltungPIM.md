@@ -41,13 +41,13 @@ Sobald Sie das PIM und den RS-Sync installiert haben, können Sie diese Daten-Mi
 
 **Bisher** gibt die Artikelverwaltung die Artikel an das POS Light und die Artikeldaten an das Modul Multimarkets ab. Das Multimarkets Modul gibt dann die Bestellungen, die es aus den Marktplätzen erhalten hat an die Fakturierung ab. Dieser hat hingegen die Verkäufe durch das POS Light Modul erhalten. Im Anschluss sendet die Fakturierung den aktuellen Status an das Multimarkets, welches diesen dann an die Marktplätze weiterleitet.
 
-![ISTZustand](/assets/ISTZustand_uj4rjofwv.jpeg)
+![ISTZustand](/assets/ISTZustand.jpeg)
 
 **Jetzt** soll das PIM die Artikeldaten an das Modul Channels senden, welches die Artikel an das Venduo POS weiterleitet, um im Gegenzug die Verkäufe zu erhalten. Das Channels Modul kann so immer den aktuellsten Status an die Marktplätze übermitteln und erhält im Gegenzug die Bestellungen.
 
 Damit die neuen Module PIM und Channels dabei mit dem alten Modul Fakturierung kommunizieren können, findet ein UCS-Sync zwischen diesen Modulen statt.
 
-![SOLLZustand](/assets/SOLLZustand_ivo6gkyls.jpeg)
+![SOLLZustand](/assets/SOLLZustand.jpeg)
 
 ###2.2 Der Ablauf des Datenumzugs
 
@@ -65,7 +65,7 @@ Vorgehensweise:
 * 1. Im Hauptmenü (links) auf Artikelverwaltung klicken.
 * 2. Nun können Sie für Ihren Vorgang Import Starten auswählen.
 
-![DatenimportStarten](/assets/DatenimportStarten_6n8ubg9w7.png)
+![DatenimportStarten](/assets/DatenimportStarten.png)
 
 Nachdem Sie diesen Befehl gegeben haben, findet von unserer Seite aus Ihre Datenmigration statt. Dafür verwenden wir einen von uns entwickelten Migrations-Assistenten, der Ihre Daten sortiert und vollständig in das neue Modul überträgt.
 
@@ -87,4 +87,4 @@ Es werden ausschließlich die Daten aus dem Modul „Artikelverwaltung“ übert
 * Das Channels Modul bezieht seine Daten direkt aus dem PIM
 * Jetzt fügen Sie Ihre zukünftigen Artikeldaten direkt in das PIM ein.
 
-![NachDatenumzug](/assets/NachDatenumzug_8h50b989f.png)
+![NachDatenumzug](/assets/NachDatenumzug.png)
