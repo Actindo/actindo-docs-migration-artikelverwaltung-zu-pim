@@ -8,7 +8,7 @@ Vorgehensweise:
 * 1. Im Hauptmenü (links) auf Artikelverwaltung klicken.
 * 2. Nun können Sie für Ihren Vorgang Import Starten auswählen.
 
-![DatenimportStarten](/assets/DatenimportStarten_2c3so1iyh.png)
+![DatenimportStarten](/assets/DatenimportStarten.png)
 
 Nachdem Sie diesen Befehl gegeben haben, findet von unserer Seite aus Ihre Datenmigration statt. Dafür verwenden wir einen von uns entwickelten Migrations-Assistenten, der Ihre Daten sortiert und vollständig in das neue Modul überträgt.
 
