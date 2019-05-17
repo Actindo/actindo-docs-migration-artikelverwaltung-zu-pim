@@ -10,6 +10,4 @@
 
 √ Hochwertiger und Einheitlicher Kontent garantiert professionellen Service
 
-![PIM](/assets/PIM.png)
-
-[DOWNLOAD LINK ONEPAGER PIM]
+![Wie2](/assets/Wie2.png)

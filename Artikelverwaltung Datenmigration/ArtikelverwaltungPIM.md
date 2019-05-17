@@ -1,4 +1,4 @@
-#Datenumzug mit dem Migrationsassistenten
+# Datenumzug mit dem Migrationsassistenten
 ### - Verschiebung der Daten aus der Artikelverwaltung in das PIM
 
 [toc]
@@ -25,7 +25,7 @@ Die ***Unified Commerce Suite*** (Abk. UCS), ist eine neue Softwaregeneration ba
 
 Die ***Actindo Core1*** beschreibt das Betriebssystem auf dem das ERP – in unserem Fall die UCS und andere Entwicklungen sowie Applikationen – betrieben werden kann.
 
-###1.2 Die Ziele des Datenumzugs
+### 1.2 Die Ziele des Datenumzugs
 
 Mit der Migration Ihrer Artikeldaten auf das neue Modul, wird der Grundstein einer vollständigen UCS-Migration gesetzt. Die Vorteile einer sukzessiven Einführung zeigen sich vor allem in der einfachen Umstellung für den Anwender, da eine nicht überfordernde Schritt-für-Schritt Umstellung erfolgt.
 
@@ -33,29 +33,29 @@ Weitere Migrationsziele, die sich für Sie daraus ergeben, sind unter anderem di
 
 Vor allem sollen aber die alten Workflows, in denen Prozesse in verschiedenen Richtungen ausgeführt wurden, durch einheitliche Datenströme ersetzt werden. Unter anderem fallen darunter die Arbeitsprozesse zwischen dem Multimarkets Modul, den Marktplätzen und dem Modul Fakturierung.
 
-##2. Vor dem Datenumzug
+## 2. Vor dem Datenumzug
 
 Sobald Sie das PIM und den RS-Sync installiert haben, können Sie diese Daten-Migration durchführen.
 
-###2.1 Ist und Soll-Zustand
+### 2.1 Ist und Soll-Zustand
 
 **Bisher** gibt die Artikelverwaltung die Artikel an das POS Light und die Artikeldaten an das Modul Multimarkets ab. Das Multimarkets Modul gibt dann die Bestellungen, die es aus den Marktplätzen erhalten hat an die Fakturierung ab. Dieser hat hingegen die Verkäufe durch das POS Light Modul erhalten. Im Anschluss sendet die Fakturierung den aktuellen Status an das Multimarkets, welches diesen dann an die Marktplätze weiterleitet.
 
-![ISTZustand](/assets/ISTZustand.jpeg)
+![PIMist](/assets/PIMist.jpeg)
 
 **Jetzt** soll das PIM die Artikeldaten an das Modul Channels senden, welches die Artikel an das Venduo POS weiterleitet, um im Gegenzug die Verkäufe zu erhalten. Das Channels Modul kann so immer den aktuellsten Status an die Marktplätze übermitteln und erhält im Gegenzug die Bestellungen.
 
 Damit die neuen Module PIM und Channels dabei mit dem alten Modul Fakturierung kommunizieren können, findet ein UCS-Sync zwischen diesen Modulen statt.
 
-![SOLLZustand](/assets/SOLLZustand.jpeg)
+![PIMsoll](/assets/PIMsoll.jpeg)
 
-###2.2 Der Ablauf des Datenumzugs
+### 2.2 Der Ablauf des Datenumzugs
 
 Damit der neue Prozessablauf integriert werden kann, müssen zuerst die Daten aus der Artikelverwaltung in das PIM eingespielt werden. Hierfür wird der Migrationsassistent, der als Teil des UCS-Sync agiert, in Betrieb genommen.
 
-![Vorgehensweise](/assets/Vorgehensweise.jpeg)
+![PIMexport](/assets/PIMexport.jpeg)
 
-##3. Der Auftrag zum Datenumzug
+## 3. Der Auftrag zum Datenumzug
 
 Sobald Sie Ihre Produktdaten umziehen wollen, beachten Sie folgende Vorgehensweise:
 
@@ -79,12 +79,12 @@ Es werden ausschließlich die Daten aus dem Modul „Artikelverwaltung“ übert
 * Bei der Verwendung und Erweiterung der neuen Daten im PIM, werden diese bis zu Ihrer vollständigen UCS-Migration weiterhin in der Artikelverwaltung aktualisiert, um Datenverluste auszuschließen.
 * Da das Multimarkets-Modul seine Daten aus dem Artikelverwaltungs-Modul bezieht, überträgt das PIM weiter alle Daten in die Artikelverwaltung.
 
-##4. Nach dem Datenumzug
+## 4. Nach dem Datenumzug
 
-###4.1 Wichtige Informationen
+### 4.1 Wichtige Informationen
 
 * Alle Marktplätze, die bisher über das Multimarkets-Modul angebunden waren, werden jetzt über das Channels Modul angebunden.
 * Das Channels Modul bezieht seine Daten direkt aus dem PIM
 * Jetzt fügen Sie Ihre zukünftigen Artikeldaten direkt in das PIM ein.
 
-![NachDatenumzug](/assets/NachDatenumzug.png)
+![PIMneu](/assets/PIMneu.jpeg)
