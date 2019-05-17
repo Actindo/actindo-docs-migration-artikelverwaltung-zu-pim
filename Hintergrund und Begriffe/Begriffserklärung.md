@@ -1,4 +1,4 @@
-#Begriffserklärung
+# Begriffserklärung
 
 Um Sie vorab hinsichtlich der verwendeten Begrifflichkeiten abzuholen, hier ein kurzer Einblick in die Bezeichnung und Funktion des neuen Moduls „PIM“, sowie des Migrationsassistenten, welches als Teilbereich des UCS-Sync fungiert.
 

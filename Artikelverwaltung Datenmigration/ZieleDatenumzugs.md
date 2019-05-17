@@ -1,4 +1,4 @@
-#Die Ziele des Datenumzugs
+# Die Ziele des Datenumzugs
 
 Mit der Migration Ihrer Artikeldaten auf das neue Modul, wird der Grundstein einer vollständigen UCS-Migration gesetzt. Die Vorteile einer sukzessiven Einführung zeigen sich vor allem in der einfachen Umstellung für den Anwender, da eine nicht überfordernde Schritt-für-Schritt Umstellung erfolgt.
 

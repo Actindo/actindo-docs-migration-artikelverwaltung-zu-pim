@@ -1,4 +1,4 @@
-#Das Actindo PIM
+# Das Actindo PIM
 
 √ Unbegrenzte Möglichkeit der Datenspeicherung
 

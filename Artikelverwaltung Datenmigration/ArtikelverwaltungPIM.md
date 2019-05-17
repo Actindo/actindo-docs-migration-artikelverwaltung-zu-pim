@@ -9,7 +9,7 @@ Dieser Leitfaden für den Datenumzug richtet sich an Kunden, die Ihre Produktinf
 
 ![ArtikelverwaltungzuPIM](/assets/ArtikelverwaltungzuPIM.jpeg)
 
-###1.1 Begriffserklärung
+### 1.1 Begriffserklärung
 
 Um Sie vorab hinsichtlich der verwendeten Begrifflichkeiten abzuholen, hier ein kurzer Einblick in die Bezeichnung und Funktion des neuen Moduls „PIM“, sowie des Migrationsassistenten, welches als Teilbereich des UCS-Sync fungiert.
 
@@ -83,8 +83,10 @@ Es werden ausschließlich die Daten aus dem Modul „Artikelverwaltung“ übert
 
 ### 4.1 Wichtige Informationen
 
-* Alle Marktplätze, die bisher über das Multimarkets-Modul angebunden waren, werden jetzt über das Channels Modul angebunden.
-* Das Channels Modul bezieht seine Daten direkt aus dem PIM
-* Jetzt fügen Sie Ihre zukünftigen Artikeldaten direkt in das PIM ein.
+**1. Jetzt fügen Sie Ihre zukünftigen Artikeldaten direkt in das PIM ein.**
+
+**2. Das Channels Modul bezieht seine Daten direkt aus dem PIM**
+
+**3. Alle Marktplätze, die bisher über das Multimarkets-Modul angebunden waren, werden jetzt über das Channels Modul angebunden.**
 
 ![PIMneu](/assets/PIMneu.jpeg)
