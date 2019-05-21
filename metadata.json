@@ -1,3 +1,5 @@
 {
-	"vimeoAlbumId": 5898736
+	"title": "Actindo PIM - UCS Connector Documentation",
+	"sorting": 50,
+	"pluginNamespace": ["PIM", "RetailSuiteFaktBase"]
 }
