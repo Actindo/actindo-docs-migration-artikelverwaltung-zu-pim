@@ -1,7 +1,8 @@
-# [Datenumzug mit dem Migrationsassistenten](index.md)
-### - Verschiebung der Daten aus der Artikelverwaltung in das PIM
-
 [toc]
+
+# Datenumzug mit dem Migrationsassistenten
+
+### Verschiebung der Daten aus der Artikelverwaltung in das PIM
 
 ## 1. Ausgangslage
 
