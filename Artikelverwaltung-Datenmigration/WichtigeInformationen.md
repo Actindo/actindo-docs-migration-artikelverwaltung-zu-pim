@@ -11,4 +11,4 @@
 
 Da alle nach der Datenmigration getätigten Produkteinträge in die Artikelverwaltung nicht mehr beachtet werden, müssen alle Ihre weiteren Produkteinträge im neuen PIM Modul erfolgen. Der Grund hierfür ist die Schrittweise Abschaffung der alten Artikelverwaltung, die durch das neue PIM Modul ersetzt werden soll. Aus diesem Grund wird in Ihrem Account, die Artikelverwaltung ausgegraut.
 
-![PIMneu](/assets/PIMneu.jpeg)
+![PIMneu](/Artikelverwaltung-Datenmigration/PIMneu.jpeg)
