@@ -7,7 +7,7 @@
 
 Dieser Leitfaden für den Datenumzug richtet sich an Kunden, die Ihre Produktinformationen bislang in der Artikelverwaltung gespeichert haben und einen Umstieg Ihrer Daten auf das Actindo PIM Modul planen.
 
-![ArtikelverwaltungzuPIM](Hintergrund-Begriffe/ArtikelverwaltungzuPIM.jpeg)
+![ArtikelverwaltungzuPIM](Hintergrund-Begriffe/ArtikelverwaltungzuPIM.jpg)
 
 ### 1.1 Begriffserklärung
 
@@ -41,19 +41,19 @@ Sobald Sie das PIM und den RS-Sync installiert haben, können Sie diese Daten-Mi
 
 **Bisher** gibt die Artikelverwaltung die Artikel an das POS Light und die Artikeldaten an das Modul Multimarkets ab. Das Multimarkets Modul gibt dann die Bestellungen, die es aus den Marktplätzen erhalten hat an die Fakturierung ab. Dieser hat hingegen die Verkäufe durch das POS Light Modul erhalten. Im Anschluss sendet die Fakturierung den aktuellen Status an das Multimarkets, welches diesen dann an die Marktplätze weiterleitet.
 
-![PIMist](Artikelverwaltung-Datenmigration/PIMist.jpeg)
+![PIMist](Artikelverwaltung-Datenmigration/PIMist.jpg)
 
 **Jetzt** soll das PIM die Artikeldaten an das Modul Channels senden, welches die Artikel an das Venduo POS weiterleitet, um im Gegenzug die Verkäufe zu erhalten. Das Channels Modul kann so immer den aktuellsten Status an die Marktplätze übermitteln und erhält im Gegenzug die Bestellungen.
 
 Damit die neuen Module PIM und Channels dabei mit dem alten Modul Fakturierung kommunizieren können, findet ein UCS-Sync zwischen diesen Modulen statt.
 
-![PIMsoll](Artikelverwaltung-Datenmigration/PIMsoll.jpeg)
+![PIMsoll](Artikelverwaltung-Datenmigration/PIMsoll.jpg)
 
 ### 2.2 Der Ablauf des Datenumzugs
 
 Damit der neue Prozessablauf integriert werden kann, müssen zuerst die Daten aus der Artikelverwaltung in das PIM eingespielt werden. Hierfür wird der Migrationsassistent, der als Teil des UCS-Sync agiert, in Betrieb genommen.
 
-![PIMexport](assets/PIMexport.jpeg)
+![PIMexport](assets/PIMexport.jpg)
 
 ## 3. Der Auftrag zum Datenumzug
 
@@ -89,4 +89,4 @@ Es werden ausschließlich die Daten aus dem Modul „Artikelverwaltung“ übert
 
 **3. Alle Marktplätze, die bisher über das Multimarkets-Modul angebunden waren, werden jetzt über das Channels Modul angebunden.**
 
-![PIMneu](Artikelverwaltung-Datenmigration/PIMneu.jpeg)
+![PIMneu](Artikelverwaltung-Datenmigration/PIMneu.jpg)
