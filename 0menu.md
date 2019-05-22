@@ -1,4 +1,4 @@
-- [Datenumzug mit dem Migrationsassistenten](index.md)
+- [Migration Artikelverwaltung zu PIM](index.md)
 - [Die Ausgangslage](Hintergrund-Begriffe/Ausgangslage.md)
 - [Die Ziele des Datenumzugs](Artikelverwaltung-Datenmigration/ZieleDatenumzugs.md)
 - [Das PIM Modul](Hintergrund-Begriffe/PIMModul.md)
