@@ -10,4 +10,4 @@
 
 √ Hochwertiger und Einheitlicher Kontent garantiert professionellen Service
 
-![Wie2](/Hintergrund-Begriffe/Wie2.png)
+![Wie2](Hintergrund-Begriffe/Wie2.png)
