@@ -8,7 +8,7 @@
 
 Dieser Leitfaden für den Datenumzug richtet sich an Kunden, die Ihre Produktinformationen bislang in der Artikelverwaltung gespeichert haben und einen Umstieg Ihrer Daten auf das Actindo PIM Modul planen.
 
-![Artikelverwaltung zu PIM](Artikelverwaltung-Datenmigration/ArtikelverwaltungzuPIM.jpeg)
+![Artikelverwaltung zu PIM](Hintergrund-Begriffe/ArtikelverwaltungzuPIM.jpeg)
 
 ### 1.1 Begriffserklärung
 
